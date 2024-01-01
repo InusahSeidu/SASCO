@@ -6,9 +6,9 @@
   <title>SASCO</title>
 
   <!-- Bootstrap CSS -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/styles.css">
-  <script src="/js/scripts.js"></script>
   <!-- Custom styles -->
   <style>
   
@@ -31,6 +31,9 @@
           <a class="nav-link" href="#">Products</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="#">Contact</a>
         </li>
       </ul>
@@ -39,7 +42,9 @@
 
   <!-- Page Content -->
   <div class="jumbotron">
-    <h1 class="display-4" id="changing-header">Welcome!</h1>
+    <div class="card">
+      <h1 class="display-4" id="changing-header">Welcome!</h1>
+    </div>
     <a class="btn btn-lg start-shopping-btn" href="#" role="button">Start Shopping</a>
   </div>
 
@@ -48,27 +53,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-  <!-- Custom JavaScript for changing headers -->
-  <script>
-    // Array of different headers
-    var headers = ["Welcome!", "Discover Amazing Products!", "Shop with Confidence!"];
-
-    // Function to change header every 3 seconds
-    function changeHeader() {
-      var index = 0;
-      setInterval(function() {
-        $('#changing-header').fadeOut(400, function() {
-          $(this).text(headers[index]).fadeIn(400);
-          index = (index + 1) % headers.length;
-        });
-      }, 3000);
-    }
-
-    // Call the function when the document is ready
-    $(document).ready(function() {
-      changeHeader();
-    });
-  </script>
-
+   <!-- External JavaScript file -->
+   <script src="/js/scripts.js"></script>
 </body>
 </html>

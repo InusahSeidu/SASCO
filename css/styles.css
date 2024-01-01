@@ -9,19 +9,24 @@ body {
 }
 
 body {
-    padding-top: 56px; /* Adjusted for fixed navbar height */
-    height: 100vh;
-  }
+  padding-top: 56px; /* Adjusted for fixed navbar height */
+  height: 100vh;
+}
 
-  .jumbotron {
-    background: url('your-image.jpg') center/cover no-repeat;
-    text-align: center;
-    padding: 150px 0;
-    margin-bottom: 0;
-    height: 100vh;
-  }
+.card{
+  width: 300px;
+  margin: auto;
+}
+.jumbotron {
+  background: url("/assets/kenticloth.jpg");
+  text-align: center;
+  padding: 150px 0;
+  margin-bottom: 0;
+  height: 100vh;
+}
 
-  .start-shopping-btn {
-    background-color: #28a745;
-    color: #fff;
-  }
+.start-shopping-btn {
+  margin-top: 200px;
+  background-color: black;
+  color: #fff;
+}
