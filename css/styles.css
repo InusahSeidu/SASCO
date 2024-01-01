@@ -1,0 +1,27 @@
+body {
+  padding-top: 56px;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding-top: 76px;
+  }
+}
+
+body {
+    padding-top: 56px; /* Adjusted for fixed navbar height */
+    height: 100vh;
+  }
+
+  .jumbotron {
+    background: url('your-image.jpg') center/cover no-repeat;
+    text-align: center;
+    padding: 150px 0;
+    margin-bottom: 0;
+    height: 100vh;
+  }
+
+  .start-shopping-btn {
+    background-color: #28a745;
+    color: #fff;
+  }
