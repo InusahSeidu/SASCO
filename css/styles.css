@@ -6,11 +6,6 @@
 
 @font-face {
   font-family: 'Back Out';
-  src: url('/fonts/BackOutWeb.otf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Back Out';
   src: url('fonts/BackOutWeb.otf') format('truetype');
 }
 
