@@ -4,15 +4,25 @@
   }
 }
 
+@font-face {
+  font-family: 'Back Out';
+  src: url('/fonts/BackOutWeb.otf') format('truetype');
+}
+
+/* Add styling where you want to use the Tribeca font */
 body {
-  padding-top: 56px; /* Adjusted for fixed navbar height */
+  font-family: 'Back Out', sans-serif;
+  padding-top: 50px;
 }
 
 .card{
-  width: 350px;
+  width: 400px;
+  height: 60px;
   margin: auto;
+  color: #fff;
   font-size: large;
   border-radius: 20px;
+  background-color: black;
 }
 
 .jumbotron {
@@ -20,7 +30,7 @@ body {
   text-align: center;
   padding: 150px 0;
   margin-bottom: 0;
-  height: 91vh;
+  height: 91.75vh;
 }
 
 .start-shopping-btn {
@@ -29,8 +39,8 @@ body {
   color: #fff;
 }
 
-.products-header {
-  background: url('image.jpg') center/cover no-repeat;
+.page-header {
+  background: url('image.jpg');
   color: black;
   text-align: center;
   padding: 100px 0;
