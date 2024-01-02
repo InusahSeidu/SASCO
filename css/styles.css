@@ -9,6 +9,11 @@
   src: url('/fonts/BackOutWeb.otf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Back Out';
+  src: url('fonts/BackOutWeb.otf') format('truetype');
+}
+
 /* Add styling where you want to use the Tribeca font */
 body {
   font-family: 'Back Out', sans-serif;
