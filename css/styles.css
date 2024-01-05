@@ -10,8 +10,6 @@
   /* Add additional font formats if available (e.g., woff, woff2) */
 }
 
-
-/* Add styling where you want to use the Tribeca font */
 body {
   font-family: 'Back Out', sans-serif;
   padding-top: 50px;
@@ -62,7 +60,7 @@ body {
 }
 
 .card-img-top {
-  background: url('image.jpg');
+  background: url('product.png');
   height: 200px; /* Set the height of the product image */
   object-fit: cover; /* Ensure the image covers the entire space */
 }
@@ -79,4 +77,11 @@ body {
 .btn-primary {
   background-color: #007bff;
   border-color: #007bff;
+}
+
+.profile{
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  margin: auto;
 }

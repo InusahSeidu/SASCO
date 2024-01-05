@@ -1,6 +1,6 @@
 /*Custom JavaScript for changing headers*/
 document.addEventListener("DOMContentLoaded", function() {
-    var headers = ["Welcome!", "Akwaaba!"];
+    var headers = ["Welcome!", "Akwaaba!", "Marhaba!"];
     var headerElement = document.getElementById("changing-header");
     var index = 0;
   
