@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: 'Back Out';
-  src: url('{{ site.baseurl }}/fonts/BackOutWeb.otf') format('truetype');
+  src: url(fonts/BackOutWeb.otf) format('truetype');
   /* Add additional font formats if available (e.g., woff, woff2) */
 }
 
